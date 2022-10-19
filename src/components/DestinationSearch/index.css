@@ -1,0 +1,60 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 100vh;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  margin: 10px;
+  font-size: 40px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 90px;
+  }
+}
+.destination-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.destination-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .destination-card {
+    align-items: flex-start;
+  }
+}
+input {
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #f1f5f9;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+}
+.png {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+}
